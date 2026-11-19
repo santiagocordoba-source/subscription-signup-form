@@ -1,0 +1,118 @@
+body {
+  /* Sets a light background color for the page */
+  background-color: #F4F4F9;
+
+  /* Uses a clean, easy-to-read font */
+  font-family: Arial, sans-serif;
+
+  /* Removes default browser spacing around the page */
+  margin: 0;
+
+  /* Adds space at the top and bottom of the page */
+  padding: 50px 20px;
+}
+
+.form-container {
+  /* Sets a white background for the form card */
+  background-color: #FFFFFF;
+
+  /* Limits the maximum width of the container */
+  max-width: 480px;
+
+  /* Centers the container horizontally on the page */
+  margin: 0 auto;
+
+  /* Adds inner spacing around the content */
+  padding: 35px;
+
+  /* Rounds the corners of the white container */
+  border-radius: 10px;
+
+  /* Adds a soft shadow for a stylish card look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Centers the text inside the container */
+  text-align: center;
+}
+
+.form-heading {
+  /* Sets the required deep purple color for the heading */
+  color: #471869;
+
+  /* Sets the size of the heading text */
+  font-size: 28px;
+
+  /* Removes top space and adds space below the heading */
+  margin: 0 0 15px 0;
+}
+
+.form-description {
+  /* Sets a soft dark gray color for readability */
+  color: #555555;
+
+  /* Sets the size of the paragraph text */
+  font-size: 16px;
+
+  /* Increases spacing between lines of text */
+  line-height: 1.5;
+
+  /* Adds space below the paragraph before the form */
+  margin: 0 0 25px 0;
+}
+
+.email-input {
+  /* Makes the input field span the full width of the container */
+  width: 100%;
+
+  /* Ensures padding does not make the input wider than 100% */
+  box-sizing: border-box;
+
+  /* Adds inner spacing inside the text box */
+  padding: 12px 15px;
+
+  /* Adds space below the input field before the button */
+  margin-bottom: 15px;
+
+  /* Adds a subtle light gray border */
+  border: 1px solid #CCCCCC;
+
+  /* Slightly rounds the corners of the input box */
+  border-radius: 5px;
+
+  /* Sets the font size inside the input box */
+  font-size: 16px;
+}
+
+.submit-button {
+  /* Makes the button span the full width of the container */
+  width: 100%;
+
+  /* Sets the required deep purple background color */
+  background-color: #471869;
+
+  /* Sets the button text color to white */
+  color: #FFFFFF;
+
+  /* Removes the default browser border */
+  border: none;
+
+  /* Adds inner spacing inside the button */
+  padding: 14px;
+
+  /* Slightly rounds the corners of the button */
+  border-radius: 5px;
+
+  /* Sets the button text size */
+  font-size: 16px;
+
+  /* Makes the button text bold */
+  font-weight: bold;
+
+  /* Changes the mouse pointer to a hand icon when hovering */
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  /* Slightly darkens the purple color when hovered */
+  background-color: #361150;
+}

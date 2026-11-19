@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BarkerBox - Subscribe and Save 15%</title>
+  <style>
+    body {
+      /* Sets a light gray background color for the page */
+      background-color: #F5F5F7;
+
+      /* Uses a clean, modern sans-serif font */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+
+      /* Removes default browser spacing around the page */
+      margin: 0;
+
+      /* Adds space at the top and bottom of the page */
+      padding: 40px 20px;
+    }
+
+    .form-container {
+      /* Sets a white background for the form card */
+      background-color: #FFFFFF;
+
+      /* Limits the maximum width of the container */
+      max-width: 560px;
+
+      /* Centers the container horizontally on the page */
+      margin: 0 auto;
+
+      /* Adds generous inner spacing around the content */
+      padding: 40px 35px;
+
+      /* Rounds the corners of the white container */
+      border-radius: 12px;
+
+      /* Adds a soft shadow around the white card */
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    .logo-circle {
+      /* Sets the width and height of the circular badge */
+      width: 120px;
+      height: 120px;
+
+      /* Makes the badge completely round */
+      border-radius: 50%;
+
+      /* Sets the bright sky-blue background inside the circle */
+      background-color: #5CE1E6;
+
+      /* Adds the deep purple border around the circle */
+      border: 4px solid #471869;
+
+      /* Centers the circle horizontally and adds space below */
+      margin: 0 auto 25px auto;
+
+      /* Centers the puppy illustration inside the circle */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .form-heading {
+      /* Sets the required deep purple color for the heading */
+      color: #471869;
+
+      /* Centers the heading text */
+      text-align: center;
+
+      /* Makes the heading large and bold */
+      font-size: 36px;
+      font-weight: 700;
+
+      /* Adjusts line spacing for the two-line title */
+      line-height: 1.2;
+
+      /* Adds space below the heading */
+      margin: 0 0 22px 0;
+    }
+
+    .form-description {
+      /* Sets the paragraph text color to dark black/gray */
+      color: #111111;
+
+      /* Aligns the paragraph text to the left as shown in the screenshot */
+      text-align: left;
+
+      /* Sets the size of the paragraph text */
+      font-size: 17px;
+
+      /* Increases spacing between lines of text */
+      line-height: 1.45;
+
+      /* Adds space below the paragraph before the inputs */
+      margin: 0 0 28px 0;
+    }
+
+    .form-input {
+      /* Makes the input field span the full width of the container */
+      width: 100%;
+
+      /* Ensures padding does not make the input wider than 100% */
+      box-sizing: border-box;
+
+      /* Adds inner spacing inside the text box */
+      padding: 15px 16px;
+
+      /* Adds space below each input field */
+      margin-bottom: 16px;
+
+      /* Adds a subtle light gray border */
+      border: 1px solid #D1D1D1;
+
+      /* Slightly rounds the corners of the input box */
+      border-radius: 6px;
+
+      /* Sets the font size inside the input box */
+      font-size: 16px;
+
+      /* Sets the text color when typing */
+      color: #333333;
+    }
+
+    .form-input::placeholder {
+      /* Sets a soft gray color for the placeholder text */
+      color: #888888;
+    }
+
+    .submit-button {
+      /* Makes the button span the full width of the container */
+      width: 100%;
+
+      /* Sets the required deep purple background color */
+      background-color: #471869;
+
+      /* Sets the button text color to white */
+      color: #FFFFFF;
+
+      /* Removes the default browser border */
+      border: none;
+
+      /* Adds inner spacing inside the button */
+      padding: 16px;
+
+      /* Slightly rounds the corners of the button */
+      border-radius: 6px;
+
+      /* Sets the button text size */
+      font-size: 17px;
+
+      /* Sets a medium-bold font weight */
+      font-weight: 500;
+
+      /* Changes the mouse pointer to a hand icon when hovering */
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      /* Slightly darkens the purple color when hovered */
+      background-color: #361150;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- White form container -->
+  <div class="form-container">
+    
+    <!-- Circular mascot illustration -->
+    <div class="logo-circle">
+      <svg width="100" height="100" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <!-- Back legs -->
+        <path d="M76 82 L84 98 L94 98 L88 80 Z" fill="#F4A460" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Body -->
+        <ellipse cx="66" cy="74" rx="22" ry="15" fill="#FFB870" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Front walking paw -->
+        <path d="M48 75 L34 68 L30 75 L46 83 Z" fill="#FFB870" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Front standing leg -->
+        <path d="M56 82 L54 98 L65 98 L65 82 Z" fill="#FFB870" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Tail -->
+        <path d="M87 68 Q98 58 95 52 Q88 55 84 65 Z" fill="#FFB870" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Head -->
+        <circle cx="52" cy="46" r="18" fill="#FFB870" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Snout -->
+        <ellipse cx="38" cy="50" rx="10" ry="8" fill="#FFD199" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Nose -->
+        <circle cx="31" cy="47" r="3.5" fill="#3B2314"/>
+        <!-- Happy Tongue -->
+        <path d="M35 55 Q33 64 39 63 Q43 61 41 55 Z" fill="#FF6B8B" stroke="#7A3E1D" stroke-width="1.5"/>
+        <!-- Floppy Ear -->
+        <path d="M58 34 Q74 36 70 56 Q60 58 56 44 Z" fill="#D97B38" stroke="#7A3E1D" stroke-width="2"/>
+        <!-- Cool Purple Sunglasses -->
+        <rect x="33" y="37" width="13" height="10" rx="2" fill="#471869" stroke="#D946EF" stroke-width="2"/>
+        <rect x="48" y="38" width="13" height="10" rx="2" fill="#471869" stroke="#D946EF" stroke-width="2"/>
+        <line x1="46" y1="41" x2="48" y2="41" stroke="#D946EF" stroke-width="2"/>
+        <line x1="61" y1="41" x2="69" y2="38" stroke="#D946EF" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <!-- Heading with product name and offer -->
+    <h1 class="form-heading">BarkerBox - Subscribe and Save 15%</h1>
+
+    <!-- Short paragraph describing the product and benefits -->
+    <p class="form-description">
+      Discover a monthly subscription box that brings an assortment of unique, playful, and durable toys that dogs will love. Subscribe now and enjoy exclusive benefits!
+    </p>
+
+    <!-- Registration form -->
+    <form class="subscription-form">
+      <input 
+        type="text" 
+        class="form-input" 
+        placeholder="Enter your name"
+      >
+      <input 
+        type="email" 
+        class="form-input" 
+        placeholder="Enter your email" 
+        required
+      >
+      <button type="submit" class="submit-button">Get My 15% Off</button>
+    </form>
+  </div>
+
+</body>
+</html>
